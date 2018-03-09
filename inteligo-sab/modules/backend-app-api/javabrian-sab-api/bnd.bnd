@@ -4,6 +4,6 @@ Bundle-Version: 1.0.0
 Export-Package: org.inteligo.sab.api.rest.javabrians.api
 Bundle-ClassPath: \
 	.,\
-	lib\commons-httpclient.jar
+	lib/commons-httpclient.jar
 -includeresource:\
-	lib\commons-httpclient.jar=commons-httpclient*.jar
+	lib/commons-httpclient.jar=commons-httpclient-3.1.jar

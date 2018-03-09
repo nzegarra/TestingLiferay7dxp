@@ -1,0 +1,5 @@
+Bundle-Name: javabrian-sab-service
+Bundle-SymbolicName: org.inteligo.sab.javabrians.service
+Bundle-Activator: org.inteligo.sab.javabrians.activator.JavaBrianActivator
+Export-Package: org.inteligo.sab.javabrians.service
+Bundle-Version: 1.0.0

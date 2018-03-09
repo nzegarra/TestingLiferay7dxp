@@ -1,0 +1,9 @@
+Bundle-Name: inteligo-sab-service
+Bundle-SymbolicName: org.inteligo.sab.service.impl
+Bundle-Version: 1.0.0
+Bundle-Activator: org.inteligo.sab.activator.ServiceActivator
+#Bundle-Activator: org.inteligo.sab.api.activator.InteligoSabActivator
+Export-Package: org.inteligo.sab.service.impl
+Bundle-Vendor: org.inteligo.sab
+#Se incluye en Export-Package:org.inteligo.sab.service.impl
+#para que agarre todo el proyecto como depenedencia.

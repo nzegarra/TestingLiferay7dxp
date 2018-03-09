@@ -1,0 +1,4 @@
+Bundle-Name: student-action-command
+Bundle-SymbolicName: org.inteligo.sab.actioncommand.student
+Bundle-Version: 1.0.0
+Export-Package: org.inteligo.sab.actioncommand.student.constants

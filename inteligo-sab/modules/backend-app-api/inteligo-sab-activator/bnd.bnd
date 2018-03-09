@@ -1,0 +1,5 @@
+Bundle-Activator: org.inteligo.sab.api.activator.InteligoSabActivator
+Bundle-Name: inteligo-sab-activator
+Bundle-SymbolicName: org.inteligo.sab.api.activator
+#Import-Package: org.inteligo.sab.service.impl
+Bundle-Version: 1.0.0

@@ -4,6 +4,24 @@ Bundle-Version: 1.0.0
 Export-Package: org.inteligo.sab.api.rest.javabrians.api
 Bundle-ClassPath: \
 	.,\
-	lib/commons-httpclient.jar
+	#lib/commons-httpclient.jar
+	lib/cxf-rt-rs-client.jar,\
+	lib/geronimo-jcache_1.0_spec.jar,\
+	lib/geronimo-atinject_1.0_spec.jar,\
+	lib/geronimo-annotation_1.1_spec.jar,\
+	lib/geronimo-el_2.2_spec.jar,\
+	lib/geronimo-interceptor_1.1_spec.jar,\
+	lib/geronimo-osgi-locator.jar,\
+	lib/geronimo-osgi-registry.jar
 -includeresource:\
-	lib/commons-httpclient.jar=commons-httpclient-3.1.jar
+lib/cxf-rt-rs-client.jar=cxf-rt-rs-client-*.jar,\
+lib/geronimo-jcache_1.0_spec.jar=geronimo-jcache_1.0_spec*.jar,\
+lib/geronimo-jcdi_1.0_spec.jar=geronimo-jcdi_1.0_spec*.jar,\
+lib/geronimo-atinject_1.0_spec.jar=geronimo-atinject_1.0_spec*.jar,\
+lib/geronimo-annotation_1.1_spec.jar=geronimo-annotation_1.1_spec*.jar,\
+lib/geronimo-el_2.2_spec.jar=geronimo-el_2.2_spec*.jar,\
+lib/geronimo-interceptor_1.1_spec.jar=geronimo-interceptor_1.1_spec*.jar,\
+lib/geronimo-osgi-locator.jar=geronimo-osgi-locator*.jar,\
+lib/geronimo-osgi-registry.jar=geronimo-osgi-registry*.jar
+#-includeresource:\
+#	lib/commons-httpclient.jar=commons-httpclient-3.1.jar

@@ -3,3 +3,15 @@ Bundle-SymbolicName: org.inteligo.sab.javabrians.service
 Bundle-Activator: org.inteligo.sab.javabrians.activator.JavaBrianActivator
 Export-Package: org.inteligo.sab.javabrians.service
 Bundle-Version: 1.0.0
+Export-Package: org.inteligo.sab.api.rest.javabrians.api
+Bundle-ClassPath: \
+	.,\
+	lib/httpclient.jar,\
+	lib/httpcore.jar,\
+	lib/commons-codec.jar,\
+	lib/commons-io.jar
+-includeresource:\
+	lib/httpclient.jar=httpclient-4.5.3.jar,\
+	lib/commons-io.jar=commons-io-2.5.jar,\
+	lib/httpcore.jar=httpcore-4.4.6.jar,\
+	lib/commons-codec.jar=commons-codec-1.9.jar
